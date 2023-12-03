@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img src="../images/bloom.png" alt="Bloom logo" class="h-20 w-20">
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
