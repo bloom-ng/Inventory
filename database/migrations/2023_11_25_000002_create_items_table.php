@@ -16,7 +16,7 @@ return new class extends Migration {
             $table->bigIncrements('id');
             $table->string('name');
             $table->longText('description');
-            $table->decimal('unit_price', 10, 5)->nullable();
+            $table->decimal('unit_price', 10, 2)->nullable();
             $table->integer('quantity');
 
             $table->timestamps();

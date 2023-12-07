@@ -28,7 +28,6 @@
             name="unit_price"
             label="Unit Price"
             :value="old('unit_price', ($editing ? $item->unit_price : ''))"
-            max="255"
             step="0.01"
             placeholder="Unit Price"
         ></x-inputs.number>
